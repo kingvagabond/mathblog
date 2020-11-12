@@ -1,0 +1,124 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2020-11-11 14:46:31 -0600
+categories: jekyll update
+---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
+## Tips and TroubleShooting
+
+I mainly follow the steps in https://www.kiltandcode.com/2020/04/30/how-to-create-a-blog-using-jekyll-and-github-pages-on-windows/.
+
+The only thing that post missed is:
+
+```
+git remote add origin https://github.com/kingvagabond/kingvagabond.github.io.git
+```
+
+* Command to run jekyll locally and automatically update posts and preview all drafts (but you may need Ctrl-F5 to force cleaning Chrome cache)
+
+```
+jekyll serve --livereload --drafts
+```
+
+* Following error reported from command line when running "jekyll serve --livereload --trace"
+
+```
+Unable to load the EventMachine C extension; To use the pure-ruby reactor, require 'em/pure_ruby'
+```
+
+Solution:
+
+https://github.com/oneclick/rubyinstaller2/issues/96
+
+```
+gem uninstall eventmachine
+gem install eventmachine --platform ruby
+```
+
+* Front Matter and VSCode Extensions:
+
+https://insujang.github.io/2019-09-28/jekyll-vscode/
+
+1. [VScode insider](https://code.visualstudio.com/insiders/) - this is an insider version of VSCode
+2. [Docker Jekyll](https://hub.docker.com/r/jekyll/jekyll/) - this is a docker Jekyll image...
+3. [jekyll-post plugin](https://marketplace.visualstudio.com/items?itemName=rohgarg.jekyll-post)
+
+* MathJax support
+
+http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html
+
+This is a bit tricky for new Jekyll versions since it's using Gem based themes and layouts are inside theme now.
+
+First need locate theme minima files by following command in local repo folder:
+
+```
+bundle info minima
+```
+
+Then create a folder named _layouts and copy all html files from minima subfolder _layouts, then add following code inside post.html:
+
+```
+  <style>
+    code.has-jax {
+      font: inherit;
+      font-size: 100%;
+      background: inherit;
+      border: inherit;
+      color: #515151;
+    }
+  </style>
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$']],
+        processEscapes: true,
+        processEnvironments: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        TeX: { equationNumbers: { autoNumber: "AMS" },
+            extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      }
+    });
+
+    MathJax.Hub.Queue(function() {
+      // Fix <code> tags after MathJax finishes running. This is a
+      // hack to overcome a shortcoming of Markdown. Discussion at
+      // https://github.com/mojombo/jekyll/issues/199
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i = 0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+
+    MathJax.Hub.Config({
+      // Autonumbering by mathjax
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+  </script>
+```
