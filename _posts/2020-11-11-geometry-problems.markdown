@@ -22,12 +22,17 @@ summary:
 
 Rotate $\triangle{BDC}$ by $60^{\circ}$ to $\triangle{AEC}$ so we have $AE=b$.
 
-Then $cos{\angle{ADE}}=\dfrac{a^2+c^2-b^2}{2ac}$, $sin{\angle{ADE}}=\sqrt{1-\dfrac{(a^2+c^2-b^2)^2}{4a^2c^2}}=\dfrac{\sqrt{(2ac+a^2+c^2-b^2)(2ac-a^2-c^2+b^2)}}{2ac}=\dfrac{\sqrt{(a+c+b)(a+c-b)(b+a-c)(b-a+c)}}{2ac}$
+Then $cos{\angle{ADE}}=\dfrac{a^2+c^2-b^2}{2ac}$,
+
+$sin{\angle{ADE}}=\sqrt{1-\dfrac{(a^2+c^2-b^2)^2}{4a^2c^2}}=\dfrac{\sqrt{(2ac+a^2+c^2-b^2)(2ac-a^2-c^2+b^2)}}{2ac}$
+
+$=\dfrac{\sqrt{(a+c+b)(a+c-b)(b+a-c)(b-a+c)}}{2ac}$
 
 Then we know
 
-$cos{\angle{ADC}}=cos(\angle{ADE}+60^{\circ})=cos{\angle{ADE}} \cdot cos60^{\circ} - sin{\angle{ADE}} \cdot sin{60^{\circ}} \\
-=\dfrac{a^2+c^2-b^2}{4ac}-\dfrac{\sqrt{3(a+b+c)(a+b-c)(b+c-a)(c+a-b)}}{4ac}=\dfrac{a^2+c^2-AC^2}{2ac}$
+$cos{\angle{ADC}}=cos(\angle{ADE}+60^{\circ})=cos{\angle{ADE}} \cdot cos60^{\circ} - sin{\angle{ADE}} \cdot sin{60^{\circ}}$
+
+$=\dfrac{a^2+c^2-b^2}{4ac}-\dfrac{\sqrt{3(a+b+c)(a+b-c)(b+c-a)(c+a-b)}}{4ac}=\dfrac{a^2+c^2-AC^2}{2ac}$
 
 $\implies AC^2=\dfrac{a^2+b^2+c^2}{2}+\dfrac{\sqrt{3(a+b+c)(a+b-c)(b+c-a)(c+a-b)}}{2}$
 
