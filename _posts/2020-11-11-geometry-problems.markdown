@@ -14,7 +14,7 @@ summary:
 
 ![problem image](/assets/images/image-20201109101018448.png){:class="img-responsive"}
 
-### The distance from a point D inside equilateral triangle $\triangle{ABC}$ to the vertices are a, b and c respectively. Solve the area for $S_{\triangle{ABC}}$
+The distance from a point D inside equilateral triangle $\triangle{ABC}$ to the vertices are a, b and c respectively. Solve the area for $S_{\triangle{ABC}}$
 
 #### Solution 1
 
