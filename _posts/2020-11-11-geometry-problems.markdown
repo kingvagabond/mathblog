@@ -8,11 +8,6 @@ tags: []
 summary:
 ---
 
----
-title: "Geometry"
-date: 2020-11-10T14:43:58-06:00
----
-
 ## Geometry Problems ##
 
 ### 11/09/2020
