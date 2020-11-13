@@ -84,7 +84,7 @@ $OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{2
 
 ### 11/13/2020
 
-![image-20201113073810590](E:\workspace\math-blog-github-jekyll\assets\images\image-20201113073810590.png)
+![image-20201113073810590](/assets/images/image-20201113073810590.png)
 
 Point D is outside of circle O with diameter MN. From D make two lines DM and DB with points D, A and B on the circle O.
 
