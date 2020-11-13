@@ -138,3 +138,8 @@ theme: jekyll-text-theme
 ```
 
 STOP HERE: this is not easy. Quite a lot changes need to be done. Seems Gem add theme is not simple. I will leave this for futural action.
+
+* Generate anchor for each header
+
+https://blog.briandrupieski.com/generate-anchors-in-jekyll-blog-post
+
