@@ -10,6 +10,8 @@ summary:
 
 ## Geometry Problems ##
 
+---
+
 ### 11/09/2020
 
 ![problem image](/assets/images/image-20201109101018448.png){:class="img-responsive"}
@@ -66,6 +68,8 @@ So we have
 
 $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a+b+c)(a+b-c)(b+c-a)(c+a-b)}}$
 
+---
+
 ### 11/12/2020
 
 ![A semicircle is constructed on line segment AB. Another  semicircle is constructed on chord CD, intersecting AB  at P and Q. If AP = 3,PQ = 7, and QB = 2, then  find the length CD.  c  Q  D  B ](/assets/images/clip_image001.jpg)
@@ -80,7 +84,7 @@ $OE=\dfrac{1}{2}, PE=\dfrac{7}{2},O_1E^2+OE^2=OO_1^2$, $O_1E^2 + PE^2 = PO_1^2 =
 
 $OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{24}=\sqrt{96}}$
 
-
+---
 
 ### 11/13/2020
 
