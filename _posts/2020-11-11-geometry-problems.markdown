@@ -68,17 +68,17 @@ $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a
 
 ### 11/12/2020
 
-![A semicircle is constructed on line segment AB. Another  semicircle is constructed on chord CD, intersecting AB  at P and Q. If AP = 3,PQ = 7, and QB = 2, then  find the length CD.  c  Q  D  B ](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/02/clip_image001.jpg)
+![A semicircle is constructed on line segment AB. Another  semicircle is constructed on chord CD, intersecting AB  at P and Q. If AP = 3,PQ = 7, and QB = 2, then  find the length CD.  c  Q  D  B ](/assets/images/clip_image001.jpg)
 
 ####  Solution 1
 
-![image-20201113071324978](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201113071324978.png)
+![image-20201113071324978](/assets/images/image-20201113071324978.png)
 
 #### Solution 2
 
 $OE=\dfrac{1}{2}, PE=\dfrac{7}{2},O_1E^2+OE^2=OO_1^2$, $O_1E^2 + PE^2 = PO_1^2 = CO_1^2=OO_1^2-\dfrac{1}{4}+\dfrac{49}{4}=OO_1^2 + 12$
 
-$OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{24}=\sqrt{96}}$ 
+$OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{24}=\sqrt{96}}$
 
 
 
