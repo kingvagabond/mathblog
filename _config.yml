@@ -30,6 +30,7 @@ permalink: /:year/:month/:day/:title/
 
 # Build settings
 theme: minima
+# theme: jekyll-text-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
