@@ -1,15 +1,11 @@
 ---
 layout: post
-title:
+title: Geometry Problems
 date: 2020-11-11 20:58
 category:
 author:
 tags: []
 summary:
----
-
-## Geometry Problems ##
-
 ---
 
 ### 11/09/2020
