@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll Doc and My Notes on it"
+title:  "About Jekyll Doc and My Notes"
 date:   2020-11-11 14:46:31 -0600
 categories: jekyll update
 ---
