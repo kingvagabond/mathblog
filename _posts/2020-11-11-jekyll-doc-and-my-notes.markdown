@@ -143,3 +143,6 @@ STOP HERE: this is not easy. Quite a lot changes need to be done. Seems Gem add 
 
 https://blog.briandrupieski.com/generate-anchors-in-jekyll-blog-post
 
+* favicon creation
+
+I use [InkScape](https://inkscape.org/) to draw simple icon and save as SVG, then use [some online converter website](https://cloudconvert.com/svg-to-ico) to convert it to ico file.
