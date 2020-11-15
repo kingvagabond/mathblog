@@ -159,4 +159,4 @@ git add .gitattibutes
 
 * Add GitLab repo mirror to be GitLab page site
 
-This step is quite straight forward. Create group in GitLab and then add a .gitlab-cli.yml on gitlab site and choose Jekyll template. Run a pipeline to deploy the site.
+This step is quite straight forward. Create group in GitLab mirror the github repo and then add a .gitlab-cli.yml on gitlab site and choose Jekyll template. Run a pipeline to deploy the site.
