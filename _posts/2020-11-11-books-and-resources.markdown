@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Books and Resources
-date: 2020-11-14 06:51
+date: 2020-11-11 06:51
 category:
 author:
 tags: []
@@ -17,7 +17,7 @@ summary:
 * [AMC-12-Problems-2012-2018](/assets/files/AMC-12-Problems-2012-2018.pdf)
 * [AMC-12-Solutions-2012-2018](/assets/files/AMC-12-Solutions-2012-2018.pdf)
 
-### AMC 12 books - From https://www.isinj.com/mt-amc12/
+### AMC 12 books - From [https://www.isinj.com/mt-amc12/](https://www.isinj.com/mt-amc12/)
 
 The primary recommendations for study for the AMC 12 are past AMC 12 contests and the Art of Problem Solving Series Books.
 I recommend they be studied in the following order:
@@ -42,10 +42,12 @@ Subject Book Size
 * [AIME-Problems-1983-2011](/assets/files/AIME-Problems-1983-2011.pdf)
 * [AIME-Solutions-1983-2011](/assets/files/AIME-Solutions-1983-2011.pdf)
 
-### AIME Books and Resources:
+### AIME Books and Resources
 
-* https://www.isinj.com/mt-aime/
-* https://www.andrew.cmu.edu/user/daltizio/mathstuff.html
-* https://webpages.uncc.edu/~hbreiter/Exotic/
+* [https://www.isinj.com/mt-aime/](https://www.isinj.com/mt-aime/)
+* [https://www.andrew.cmu.edu/user/daltizio/mathstuff.html](https://www.andrew.cmu.edu/user/daltizio/mathstuff.html)
+* [https://webpages.uncc.edu/~hbreiter/Exotic/](https://webpages.uncc.edu/~hbreiter/Exotic/)
 
-### USAMO Books: https://www.isinj.com/mt-usamo/
+### USAMO Books
+
+[https://www.isinj.com/mt-usamo/](https://www.isinj.com/mt-usamo/)

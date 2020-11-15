@@ -20,4 +20,6 @@ Jekyll is old and huge with ruby installation but it is clear and easy to start 
 
 I follow the approach to append posts and keep home page fixed, and add anchors to all headers. It's a special way to make it some like Single-Page.
 
+More technical details are accumulated in [About Jekyll Doc and My Notes]({% post_url 2020-11-11-jekyll-doc-and-my-notes %}).
+
 That's all about it so far.

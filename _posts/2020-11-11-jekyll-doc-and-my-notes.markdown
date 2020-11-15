@@ -146,3 +146,14 @@ https://blog.briandrupieski.com/generate-anchors-in-jekyll-blog-post
 * favicon creation
 
 I use [InkScape](https://inkscape.org/) to draw simple icon and save as SVG, then use [some online converter website](https://cloudconvert.com/svg-to-ico) to convert it to ico file.
+
+* Upload large PDF files
+
+[Git Large File Storage](https://git-lfs.github.com/) has to be used if file size is larger than 100MB for GitHub. The trick is, after installing git-lfs program, all git lfs commands needs to be run at repo root directory:
+
+```
+git lfs install
+git lfs track "*.pdf"
+git add .gitattibutes
+```
+
